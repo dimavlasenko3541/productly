@@ -10,8 +10,6 @@ body {
   line-height: 26px;
 }
 
-
-
 .title {
   color: #2f281e;
 }
@@ -217,7 +215,6 @@ button {
 .direction__item-subtitle {
   font-weight: 700;
   margin-bottom: 12px;
-
 }
 
 .direction__item-text {
@@ -236,7 +233,6 @@ button {
   margin-bottom: 30px;
   padding-left: 65px;
   position: relative;
-
 }
 
 .direction__list-item::before {
@@ -254,7 +250,6 @@ button {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-
 }
 
 .team__inner {
@@ -294,25 +289,21 @@ button {
   position: absolute;
   width: 98px;
   height: 98px;
-
 }
 
 .team__item--1 {
   right: 95px;
   top: 157px;
-
 }
 
 .team__item--2 {
   left: 0;
   top: 223px;
-
 }
 
 .team__item--3 {
   bottom: 257px;
   right: 0;
-
 }
 
 .team__item--4 {
@@ -323,7 +314,6 @@ button {
 .team__item--5 {
   right: 300px;
   bottom: 135px;
-
 }
 
 .team__item-img {
@@ -337,7 +327,7 @@ button {
 .team__item-text {
   background-color: #fff;
   padding: 14px 20px 15px;
-  color: #2F281E;
+  color: #2f281e;
   box-shadow: #567592, 0.1;
   border-radius: 26px;
   display: block;
@@ -353,9 +343,6 @@ button {
   left: 62px;
 }
 
-
-
-
 .team__item-text--right::after,
 .team__item-text--right::before,
 .team__item-text--left::before,
@@ -366,8 +353,6 @@ button {
   border-radius: 50%;
   bottom: -7px;
   right: 30px;
-
-
 }
 
 .team__item-text--right::after,
@@ -415,7 +400,6 @@ button {
   margin: 0 -20px;
 }
 
-
 .slider__item {
   padding: 0 20px;
 }
@@ -445,7 +429,7 @@ button {
   font-size: 24px;
   line-height: 34px;
   text-decoration: none;
-  color: #2F281E;
+  color: #2f281e;
   transition: 0.3s;
   margin-bottom: 84px;
   display: inline-block;
@@ -470,14 +454,11 @@ button {
   background-color: #979797;
   padding: 0;
   margin: 0 5px;
-
 }
 
 .slick-dots .slick-active button {
   background-color: #ff9900;
-
 }
-
 
 .footer__inner {
   padding: 105px 0 100px;
@@ -501,74 +482,72 @@ button {
   list-style: none;
 }
 
-
 .footer__menu-link {
   text-decoration: none;
   line-height: 35px;
   font-size: 16px;
   color: #544837;
-
 }
 
 .footer__form {
   width: 330px;
 }
 
-
 .footer__form-input {
-height: 48px;
-border: 1px solid #BCD0E5;
-border-radius: 4px;
-width: 100%;
-margin-bottom: 21px;
-display: inline-block;
-padding: 0 15px;
+  height: 48px;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 21px;
+  display: inline-block;
+  padding: 0 15px;
 }
 
-.footer__form-input::placeholder{
-  color: #BCD0E5;
+.footer__form-input::placeholder {
+  color: #bcd0e5;
   font-size: 16px;
   line-height: 28px;
-
 }
 
 .footer__form-btn {
-   background-color: #ff9900;
-   border-radius: 4px;
-   color: #fff;
-   border: none;
-   padding: 8px 15px 7px;
+  background-color: #ff9900;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  padding: 8px 15px 7px;
 }
 
-.menu__btn{
+.menu__btn {
   width: 40px;
   height: 30px;
   cursor: pointer;
   display: none;
-  
 }
-.menu__btn span{
+
+.menu__btn span {
   display: block;
   height: 2px;
   width: 100%;
-  background-color:black;
+  background-color: black;
   position: absolute;
   left: 0;
   top: 14px;
 }
+
 .menu__btn::after,
-.menu__btn::before{
+.menu__btn::before {
   content: "";
   position: absolute;
   width: 40px;
   height: 2px;
-  background-color :black;
+  background-color: black;
   left: 0;
 }
-.menu__btn::before{
-top: 0;
+
+.menu__btn::before {
+  top: 0;
 }
 
-.menu__btn::after{
-bottom: 0;
+.menu__btn::after {
+  bottom: 0;
 }

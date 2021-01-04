@@ -213,4 +213,7 @@
     .footer__inner {
         justify-content: space-around;
     }
+    .top__inner, .direction, .blog {
+        padding: 50px 0 40px;
+    }
 }
